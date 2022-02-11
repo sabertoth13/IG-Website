@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>Home</title>
+
+	</head>
+	<body>
+		<script src="function.js"></script>
+		<div id = "home" class = "tab">
+			<h1>Home</h1>
+		</div>
+		<div id = "news" class = "tab">
+			<h1>Stock News</h1>
+		</div>
+		<div id = "holdings" class = "tab">
+			<h1>Current Holdings</h1>
+		</div>
+		<div id = "about" class = "tab">
+			<h1>About The Club</h1>
+		</div>
+		
+		<button class="tablink" onclick="openTab('Home', this, 'red')" id="defaultOpen">Home</button>
+		<button class="tablink" onclick="openNews()">Stock News</button>
+		<button class="tablink" onclick="openTab('Current Holdings', this, 'blue')">Current Holdings</button>
+		<button class="tablink" onclick="openTab('About Investment Group', this, 'orange')">About The Club</button>
+		
+		
+		<h1>We do things like investing and stuff</h1>
+		<h2>We look at our holdings every semester</h2>
+		<p id = "sentencep" class = "bigtext"></p>
+		<p id = "jibberishp" class = "bigtext"></p>
+		<button id = "deezbutton" onclick = "buttonalert()">deex</button>
+	</body>
+</html>

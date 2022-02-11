@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>About Investment Group</title>
+
+	</head>
+	<body>
+		<nav>
+			<a href="./index.html">Home</a>
+			<a href="./news.html">Stock News</a>
+			<a href="./holdings.html">Our Holdings</a>
+			<a href="./about.html">About Investment Group</a>
+		</nav>
+		<script src="function.js"></script>
+		<h2>Hello World... again</h2>
+		<h1>Bruh moment</h1>
+		<p id = "sentencep" class = "bigtext">This is what we gonna be doing today. It's gonna be ya mom!</p>
+		<p id = "jibberishp" class = "bigtext">oasnjkcSDBIFijkSDNCBsaidnhcoiHJfoicDHNixhdfnuiachsgcf siuc hshbsiu hXJfdhs</p>
+		<button id = "deezbutton" onclick = "buttonalert()">deex</button>
+	</body>
+</html>

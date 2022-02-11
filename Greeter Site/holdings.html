@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+  <script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+
+      title:{
+      text: "Current Holdings"
+      },
+       data: [
+      {
+        type: "line",
+
+        dataPoints: [
+        { x: new Date(2012, 00, 1), y: 450 },
+        { x: new Date(2012, 01, 1), y: 414 },
+        { x: new Date(2012, 02, 1), y: 520 },
+        { x: new Date(2012, 03, 1), y: 460 },
+        { x: new Date(2012, 04, 1), y: 450 },
+        { x: new Date(2012, 05, 1), y: 500 },
+        { x: new Date(2012, 06, 1), y: 480 },
+        { x: new Date(2012, 07, 1), y: 480 },
+        { x: new Date(2012, 08, 1), y: 410 },
+        { x: new Date(2012, 09, 1), y: 500 },
+        { x: new Date(2012, 10, 1), y: 480 },
+        { x: new Date(2012, 11, 1), y: 510 }
+        ]
+      }
+      ]
+    });
+
+    chart.render();
+  }
+  </script>
+ <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	</head>
+	<body>
+		<script src="function.js"></script>
+		<div id = "home" class = "tab">
+			<h1>Home</h1>
+		</div>
+		<div id = "news" class = "tab">
+			<h1>Stock News</h1>
+		</div>
+		<div id = "holdings" class = "tab">
+			<h1>Current Holdings</h1>
+		</div>
+		<div id = "about" class = "tab">
+			<h1>About The Club</h1>
+		</div>
+		
+		<button class="tablink" onclick="openHome()" id="defaultOpen">Home</button>
+		<button class="tablink" onclick="openNews()">Stock News</button>
+		<button class="tablink" onclick="openHoldings()">Current Holdings</button>
+		<button class="tablink" onclick="openAbout()">About The Club</button>
+
+		<h2>We hold a lot of stocks probably</h2>
+		<h1>Bruh moment</h1>
+		<p id = "sentencep" class = "bigtext">This is what we gonna be doing today. It's gonna be ya mom!</p>
+		<p id = "jibberishp" class = "bigtext">oasnjkcSDBIFijkSDNCBsaidnhcoiHJfoicDHNixhdfnuiachsgcf siuc hshbsiu hXJfdhs</p>
+		<button id = "deezbutton" onclick = "buttonalert()">deex</button>
+	</body>
+</html>

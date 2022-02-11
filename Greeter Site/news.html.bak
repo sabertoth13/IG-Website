@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>Stock News</title>
+
+	</head>
+	<body>
+		
+		
+		<h1>Sometimes we learn new things about companies</h1>
+		<h2>They come in the form of news or company reports</h2>
+		<p id = "sentencep" class = "bigtext"></p>
+		<p id = "jibberishp" class = "bigtext"></p>
+		<button id = "deezbutton" onclick = "buttonalert()">deex</button>
+	</body>
+</html>
