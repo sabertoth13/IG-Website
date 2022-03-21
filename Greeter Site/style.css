@@ -43,8 +43,3 @@ div {
   background-color: #777;
 }
 
-/* Style each tab content individually */
-#home {background-color:red;}
-#news {background-color:green;}
-#holdings {background-color:blue;}
-#about {background-color:orange;}

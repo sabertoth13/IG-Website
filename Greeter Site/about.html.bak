@@ -6,13 +6,25 @@
 
 	</head>
 	<body>
-		<nav>
-			<a href="./index.html" class = "tab">Home</a>
-			<a href="./news.html" class = "tab">Stock News</a>
-			<a href="./holdings.html" class = "tab">Our Holdings</a>
-			<a href="./about.html" class = "tab">About Investment Group</a>
-		</nav>
 		<script src="function.js"></script>
+		<div id = "home" class = "tab">
+			<h1>Home</h1>
+		</div>
+		<div id = "news" class = "tab">
+			<h1>Stock News</h1>
+		</div>
+		<div id = "holdings" class = "tab">
+			<h1>Current Holdings</h1>
+		</div>
+		<div id = "about" class = "tab">
+			<h1>About The Club</h1>
+		</div>
+		
+		<button class="tablink" onclick="openHome()" id="defaultOpen">Home</button>
+		<button class="tablink" onclick="openNews()">Stock News</button>
+		<button class="tablink" onclick="openHoldings()">Current Holdings</button>
+		<button class="tablink" onclick="openAbout()">About The Club</button>
+		
 		<h2>There are real human persons in the club</h2>
 		<h1></h1>
 		<p id = "sentencep" class = "bigtext"></p>
